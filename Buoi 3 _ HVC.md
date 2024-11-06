@@ -1,40 +1,3 @@
-- [Mọi thứ đều là đối tượng](#mọi-thứ-đều-là-đối-tượng)
-  - [I/ Tính đóng gói.](#i-tính-đóng-gói)
-    - [1/ Tại sao cần tính đóng gói?](#1-tại-sao-cần-tính-đóng-gói)
-    - [2/ Ví dụ với Java.](#2-ví-dụ-với-java)
-  - [II/ Tính kế thừa.](#ii-tính-kế-thừa)
-    - [1/ Tính kế thừa là gì?](#1-tính-kế-thừa-là-gì)
-    - [2/ Cú pháp kế thừa trong Java.](#2-cú-pháp-kế-thừa-trong-java)
-    - [3/ Từ khóa super](#3-từ-khóa-super)
-      - [a/ Phân biệt các thành phần có cùng tên giữa lớp cha và lớp con.](#a-phân-biệt-các-thành-phần-có-cùng-tên-giữa-lớp-cha-và-lớp-con)
-      - [b/ Gọi hàm tạo của lớp cha.](#b-gọi-hàm-tạo-của-lớp-cha)
-    - [4/ Variable hiding \& Variable shadowing](#4-variable-hiding--variable-shadowing)
-      - [a/ Variable hiding](#a-variable-hiding)
-      - [b/ Variable shadowing](#b-variable-shadowing)
-    - [5/ Các loại kế thừa trong Java](#5-các-loại-kế-thừa-trong-java)
-      - [a/ Đơn kế thừa](#a-đơn-kế-thừa)
-      - [b/ Kế thừa đa cấp](#b-kế-thừa-đa-cấp)
-      - [c/ Kế thừa thứ bậc](#c-kế-thừa-thứ-bậc)
-    - [6/ Đa kế thừa trong Java](#6-đa-kế-thừa-trong-java)
-      - [a/ Abstract và interface trong Java](#a-abstract-và-interface-trong-java)
-        - [\*/ Abstract](#-abstract)
-        - [\*/ Interface](#-interface)
-      - [b/ Đa kế thừa trong Java](#b-đa-kế-thừa-trong-java)
-      - [c/ Kế thừa Interface trong Java](#c-kế-thừa-interface-trong-java)
-  - [III/ Upcasting va Downcasting](#iii-upcasting-va-downcasting)
-    - [1/ Upcasting](#1-upcasting)
-    - [2/ Downcasting](#2-downcasting)
-  - [IV/ Class Object](#iv-class-object)
-  - [V/ Tính đa hình](#v-tính-đa-hình)
-  - [VI/ Đa hình runtime và compile time](#vi-đa-hình-runtime-và-compile-time)
-    - [1/ Đa hình runtime](#1-đa-hình-runtime)
-    - [2/ Đa hình compile time](#2-đa-hình-compile-time)
-  - [VII/ Overload và Override](#vii-overload-và-override)
-    - [1/ Ghi đè phương thức (method overriding)](#1-ghi-đè-phương-thức-method-overriding)
-    - [2/ Nạp chồng phương thức (method overloading)](#2-nạp-chồng-phương-thức-method-overloading)
-      - [a/Nạp chồng phương thức: thay đổi số lượng các tham số](#anạp-chồng-phương-thức-thay-đổi-số-lượng-các-tham-số)
-      - [b/ Nạp chồng phương thức: thay đổi kiểu dữ liệu của các tham số](#b-nạp-chồng-phương-thức-thay-đổi-kiểu-dữ-liệu-của-các-tham-số)
-    - [3/ Sự khác nhau giữa overloading và overriding trong java](#3-sự-khác-nhau-giữa-overloading-và-overriding-trong-java)
 
 # Mọi thứ đều là đối tượng
 
@@ -97,7 +60,7 @@ public class Person {
 ### 2/ Cú pháp kế thừa trong Java.
 
 ```Java
-class SubClass-name extends SuperClass-name {  
+class SubClassName extends SuperClassName {  
    //methods and fields
 }  
 ```
